@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Media Queri HTML</title>
+	<link rel="stylesheet" href="css/styles.css">
+	<link rel="shortcut icon" href="https://aomine1745.github.io/ico/aomine.ico">
+</head>
+<body>
+	<h1>Trucos HTML (01) - Picture</h1>
+<!-- 	<picture>
+		<source srcset="img/img-1.jpg" media="only screen and (min-width: 1023.8px)"/>	
+		<source srcset="img/img-2.png" media="only screen and (min-width: 768px)"/>	
+		<source srcset="img/img-3.jpg" media="only screen and (min-width: 480px)"/>	
+		<img src="img/img-4.jpg" alt="img">
+	</picture> -->
+
+	<picture>
+		<source srcset="img/img-2.webp" media="only screen and (min-width: 480px) and (max-width: 767.8px)" type="image/webp" />
+		<source srcset="img/img-1.jpg" media="only screen and (min-width: 480px) and (max-width: 767.8px)"/>	
+		<img src="img/img-3.jpg" alt="img">
+	</picture>
+</body>
+</html>
